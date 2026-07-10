@@ -188,8 +188,9 @@ nav {
 
 .price-card ul li{
     color: #333333;
-    padding: 5px;
+    padding: .4rem;
     font-weight: 400;
+    font-size: 0.9rem;
 
 }
 .price-card ul li::marker{
@@ -202,12 +203,24 @@ nav {
 .highlighted ul li{
     color: #ffffff80;
 }
+#pro{
+    color: #93C5FD;
+}
 .price-btn{
     display: flex;
+    width: 100%;
     justify-content: center;
     margin:0 auto;
 }
-
+.outline-btn{
+    background-color: transparent;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+.team-btn{
+    color: #0D1B2A;
+    border: 2px solid #0D1B2A;
+}
 
 
 /* --price cards end-- */
