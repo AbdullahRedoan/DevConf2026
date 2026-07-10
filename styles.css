@@ -256,8 +256,6 @@ nav {
   margin: 3rem 0 1rem 0;
   color: #0d1b2a;
 }
-
-/* Day Markers */
 .day-header {
   background-color: #0d1b2a;
   color: #ffffff;
@@ -284,16 +282,12 @@ nav {
   background-color: #e9e9e9;
   transition: .3s;
 }
-
-/* Column 1: Time */
 .time-column {
   width: 100px;
   font-weight: 600;
   color: #4b5563;
   font-size: 15px;
 }
-
-/* Column 2: Perfect Circular Avatar */
 .avatar-column {
   width: 80px;
   display: flex;
@@ -307,14 +301,13 @@ nav {
 .speaker-avatar {
   width: 55px;
   height: 55px;
-  border-radius: 50%; /* Makes the image an exact circle */
-  object-fit: cover; /* Prevents the image from stretching or distorting */
+  border-radius: 50%;
+  object-fit: cover;
   border: 2px solid #e5e7eb;
 }
 
-/* Column 3: Text Information */
 .info-column {
-  flex: 1; /* Automatically takes up all remaining width */
+  flex: 1;
   padding-left: 15px;
 }
 
@@ -330,7 +323,6 @@ nav {
   margin: 0;
 }
 
-/* Static Track Labels (Badges) */
 .track-tag {
   font-size: 11px;
   font-weight: bold;
