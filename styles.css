@@ -104,7 +104,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #57575770;
+  border: 1px solid #57575730;
   border-radius: 10px;
 }
 .speaker img {
@@ -115,11 +115,20 @@ nav {
   border-radius: 10px 10px 0 0;
 }
 .speaker-texts{
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
     display: flex;
     flex-direction: column;
 }
-.speaker-texts small h2 {
-    margin: 0;
+.speaker-category {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1d4ed8;
+}
+.speaker-designation {
+    font-size: 0.8rem;
+    color: #575757;
+}
+.speaker-texts h2 {
+    margin: 10px 0 10px 0;
 }
