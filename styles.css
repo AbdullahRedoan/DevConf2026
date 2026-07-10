@@ -253,6 +253,10 @@ footer {
     gap: 1.5rem;
     font-size: .8rem;
 }
+.footer-middle ul li a{
+    text-decoration: none;
+    color: #ffffff80;
+}
 .contact{
     width: 115px;
     margin: .4rem;
