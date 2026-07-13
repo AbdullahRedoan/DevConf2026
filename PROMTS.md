@@ -1,0 +1,1 @@
+I have created a schedule section  outline and now I want it to animate on hover on the day row. when hovered on the day row, other information like the speech track rows will come out. in default position the day rows will stay stacked over one another keeping the date part visible and when hovering on the date, other details will show up opening the day card. 

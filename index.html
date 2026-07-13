@@ -25,8 +25,8 @@
         </div>
         <div>
           <ul class="navlink-container">
-            <li class="navlink"><a href="#">Speakers</a></li>
-            <li class="navlink"><a href="#">Schedule</a></li>
+            <li class="navlink"><a href="#speakers-section">Speakers</a></li>
+            <li class="navlink"><a href="#schedule-section">Schedule</a></li>
             <li class="navlink"><a href="#">Tracks</a></li>
             <li class="navlink"><a href="#">Venue</a></li>
             <li class="navlink"><a href="#">Blog</a></li>
@@ -55,7 +55,7 @@
       <!-- Hero section end -->
        
       <!-- Meet the speakers section -->
-      <section class="speakers-container container">
+      <section id="speakers-section" class="speakers-container container">
         <h1>Meet the Speakers</h1>
         <div class="speaker-grid">
             <div class="speaker">
@@ -168,90 +168,107 @@
     <!-- Secure your spot end -->
 
     <!-- schedule section start -->
-    <section class="schedule-section container">
+    <section id="schedule-section" class="schedule-section container">
         <h2 class="section-title">Conference Schedule</h2>
-  
+
         <div class="timeline-container">
-            <div class="day-header">DAY 01 — OCT 15</div>
-    
-                <div class="timeline-item">
-            <div class="time-column">09:00 AM</div>
-        <div class="avatar-column">
-            <img src="./images/andrej.png" alt="Andrej Karpathy" class="speaker-avatar">
+            <div class="day-card">
+                <div class="day-header">
+                  <span> DAY 01 — OCT 15</span>
+                <span>  <i class="fa-solid fa-angle-down"></i> </span>
+                </div>
+                <div class="day-content">
+                    <div class="timeline-item">
+                        <div class="time-column">09:00 AM</div>
+                        <div class="avatar-column">
+                            <img src="./images/andrej.png" alt="Andrej Karpathy" class="speaker-avatar">
+                        </div>
+                        <div class="info-column">
+                            <span class="track-tag ai-tag">AI / ML</span>
+                            <h3 class="speech-title">The Future of Pretraining</h3>
+                            <p class="speaker-name">Andrej Karpathy &bull; Anthropic</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="time-column">11:30 AM</div>
+                      <div class="avatar-column">
+                        <img style="object-position: -1.7rem;" src="./images/gary.png" alt="Gary Marcus" class="speaker-avatar">
+                      </div>
+                      <div class="info-column">
+                        <span class="track-tag frontend-tag">Frontend</span>
+                        <h3 class="speech-title">Next-Gen Rendering Architecture</h3>
+                        <p class="speaker-name">Gary Marcus &bull; Vercel</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day-card">
+                <div class="day-header">
+                <span>  DAY 02 — OCT 16</span>
+                <span>  <i class="fa-solid fa-angle-down"></i> </span>
+                </div>
+                <div class="day-content">
+                    <div class="timeline-item">
+                      <div class="time-column">10:00 AM</div>
+                      <div class="avatar-column">
+                        <img src="./images/demis.png" alt="Demis Hassabis" class="speaker-avatar">
+                      </div>
+                      <div class="info-column">
+                        <span class="track-tag cloud-tag">Cloud & DevOps</span>
+                        <h3 class="speech-title">Scaling DeepMind Infrastructure</h3>
+                        <p class="speaker-name">Demis Hassabis &bull; Google DeepMind</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="time-column">11:30 AM</div>
+                      <div class="avatar-column">
+                        <img style="object-position: -1.7rem;" src="./images/mustafa.png" alt="Mustafa" class="speaker-avatar">
+                      </div>
+                      <div class="info-column">
+                        <span class="track-tag frontend-tag">SECURITY</span>
+                        <h3 class="speech-title">Rethinking Zero-Trust: Architectural Privacy in Modern Web Apps</h3>
+                        <p class="speaker-name">Mustafa Suleyman &bull; Vercel</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day-card">
+                <div class="day-header">
+                  <span>DAY 03 — OCT 17</span>
+                <span>  <i class="fa-solid fa-angle-down"></i> </span>
+                </div>
+                <div class="day-content">
+                    <div class="timeline-item">
+                      <div class="time-column">10:00 AM</div>
+                      <div class="avatar-column">
+                        <img style="object-position:0;" src="./images/MICHELE_CATASTA_SPK.jpg" alt="Michele Catasta" class="speaker-avatar">
+                      </div>
+                      <div class="info-column">
+                        <span class="track-tag cloud-tag">AI / ML</span>
+                        <h3 class="speech-title">Orchestrating the Future: Deploying Agentic AI Systems in Production</h3>
+                        <p class="speaker-name">Michele Catasta &bull; President & Head of AI, Replit</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item">
+                      <div class="time-column">11:30 AM</div>
+                      <div class="avatar-column">
+                        <img style="object-position: -.1rem;" src="./images/werner vogels.jpg" alt="Mustafa" class="speaker-avatar">
+                      </div>
+                      <div class="info-column">
+                        <span class="track-tag frontend-tag">Cloud & Devops</span>
+                        <h3 class="speech-title">Resilient by Design: Architectural Patterns for Worldwide Scale</h3>
+                        <p class="speaker-name">Werner Vogels &bull; CTO, Amazon.com</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="info-column">
-            <span class="track-tag ai-tag">AI / ML</span>
-            <h3 class="speech-title">The Future of Pretraining</h3>
-            <p class="speaker-name">Andrej Karpathy &bull; Anthropic</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="time-column">11:30 AM</div>
-      <div class="avatar-column">
-        <img style="object-position: -1.7rem;" src="./images/gary.png" alt="Gary Marcus" class="speaker-avatar">
-      </div>
-      <div class="info-column">
-        <span class="track-tag frontend-tag">Frontend</span>
-        <h3 class="speech-title">Next-Gen Rendering Architecture</h3>
-        <p class="speaker-name">Gary Marcus &bull; Vercel</p>
-      </div>
-    </div>
-
-    <div class="day-header">DAY 02 — OCT 16</div>
-
-    <div class="timeline-item">
-      <div class="time-column">10:00 AM</div>
-      <div class="avatar-column">
-        <img src="./images/demis.png" alt="Demis Hassabis" class="speaker-avatar">
-      </div>
-      <div class="info-column">
-        <span class="track-tag cloud-tag">Cloud & DevOps</span>
-        <h3 class="speech-title">Scaling DeepMind Infrastructure</h3>
-        <p class="speaker-name">Demis Hassabis &bull; Google DeepMind</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="time-column">11:30 AM</div>
-      <div class="avatar-column">
-        <img style="object-position: -1.7rem;" src="./images/mustafa.png" alt="Mustafa" class="speaker-avatar">
-      </div>
-      <div class="info-column">
-        <span class="track-tag frontend-tag">SECURITY</span>
-        <h3 class="speech-title">Rethinking Zero-Trust: Architectural Privacy in Modern Web Apps</h3>
-        <p class="speaker-name">Mustafa Suleyman &bull; Vercel</p>
-      </div>
-    </div>
-
-  </div>
-    <div class="day-header">DAY 03 — OCT 17</div>
-
-    <div class="timeline-item">
-      <div class="time-column">10:00 AM</div>
-      <div class="avatar-column">
-        <img style="object-position:0;" src="./images/MICHELE_CATASTA_SPK.jpg" alt="Michele Catasta" class="speaker-avatar">
-      </div>
-      <div class="info-column">
-        <span class="track-tag cloud-tag">AI / ML</span>
-        <h3 class="speech-title">Orchestrating the Future: Deploying Agentic AI Systems in Production</h3>
-        <p class="speaker-name">Michele Catasta &bull; President & Head of AI, Replit</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="time-column">11:30 AM</div>
-      <div class="avatar-column">
-        <img style="object-position: -.1rem;" src="./images/werner vogels.jpg" alt="Mustafa" class="speaker-avatar">
-      </div>
-      <div class="info-column">
-        <span class="track-tag frontend-tag">Cloud & Devops</span>
-        <h3 class="speech-title">Resilient by Design: Architectural Patterns for Worldwide Scale</h3>
-        <p class="speaker-name">Werner Vogels &bull; CTO, Amazon.com</p>
-      </div>
-    </div>
-
-  </div>
+    </section>
 </main>
 <!-- schedule section end -->
 
